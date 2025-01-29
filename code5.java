@@ -5,8 +5,9 @@ public class code5{
     {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number : ");
-        scanner.close();
+        
         int number = scanner.nextInt();
+        scanner.close();
         
         if( number < 5){
         System.out.println("true");
